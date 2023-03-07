@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
   use("tpope/vim-fugitive")
   use("nvim-treesitter/nvim-treesitter-context")
   use("preservim/nerdtree")
+  use("preservim/nerdcommenter")
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
